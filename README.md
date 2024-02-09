@@ -1,3 +1,5 @@
+This is a featured React project A Weather Application using react.js, OpenWeatherAPI, and Material UI.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
