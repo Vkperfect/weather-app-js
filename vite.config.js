@@ -5,4 +5,15 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/Cloud-Point/",
+  server: {
+    host: "0.0.0.0",
+  },
+  build: {
+    outDir: "dist",
+    rollupOptions: {
+      input: {
+        main: "./src/main.jsx",
+      },
+    },
+  },
 });
